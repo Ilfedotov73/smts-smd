@@ -27,14 +27,6 @@ void read_input(int *pa, char *pop_, int *pb)
     	printf("Error: input invalid.\n");
     	abort();
     }
-    if (*pa < '0' || *pa > '9') {
-    	printf("Error: input invalid, please input param a between 0 and 9.\n");
-	abort();
-    }    
-    if (*pb < '0' || *pb > 9) {
-        printf("Error: input invalid, please input param b between 0 and 9.\n");
-        abort();    
-    }
     if (*pop_ != '+' && *pop_ != '-') {
     	printf("Error: input invalid, operator input error.\n");
 	abort();
