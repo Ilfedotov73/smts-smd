@@ -1,3 +1,11 @@
 # smts-smd
 Примеры кода и лекции для общего курса по дисциплинам "Поддержка и тестирование программных модулей" и "Разработка программных модулей" (КЭИ).
-Ссылка на Google диск для выгрузки домашних работ: [https://drive.google.com/drive/folders/1ayYz3FGwwM4L9APfWlwVIyGfgD4c8Sl4?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto]
+Ссылка на Google диск для выгрузки домашних работ: [https://drive.google.com/drive/folders/1ayYz3FGwwM4L9APfWlwVIyGfgD4c8Sl4?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto].
+## Лаб. 1
+В первой лабораторной работе требуется установить wsl ubuntu и написать свою первую прогрумму на языке программирования C. Смотреть файл по ссылке [https://github.com/Ilfedotov73/smts-smd/blob/main/coursework/slides/Basics-SMTS-SMD.pdf].
+## Лаб. 2
+Необходимо написать-дополнитель код в [https://github.com/Ilfedotov73/smts-smd/blob/main/labworks/calc-base.c]. На месте 'TODO' необходимо вписать код проверки.
+## Лаб. 3
+Требуется реализовать функцию reverse(). Функция reverse() принимает на вход строковую константу и разворачивает ее в обратном направлении. Пример сортировки слиянием [https://github.com/Ilfedotov73/smts-smd/blob/main/labworks/msort.c]
+## Лаб. 4 
+В финальной лабораторной работе необходимо написать любимую функцию сортировки и оформить её виде модульного кода (разделить код на .h и .c).
