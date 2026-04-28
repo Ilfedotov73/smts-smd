@@ -10,11 +10,13 @@ int main()
     read_input(&a, &op_, &b);
     
     if (op_ == '+') {
-	n = a + b;
+	    n = a + b;
     }
     else if (op_ == '-') {
     	n = a - b;
     }
+
+    // TODO: реализовать логику для символов '/' и '*'.
     printf("result: %d\n",n);
     return 0;
 }
@@ -29,7 +31,10 @@ void read_input(int *pa, char *pop_, int *pb)
     }
     if (*pop_ != '+' && *pop_ != '-') {
     	printf("Error: input invalid, operator input error.\n");
-	abort();
+	    abort();
     }
+
+    // TODO: реализовать проверки для '/' и '*' и обосновать.
+    // Подсказка: Нельзя допустить деления на 0.
 }
 
